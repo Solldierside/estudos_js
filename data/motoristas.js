@@ -23,4 +23,5 @@ const motoristas = [
   {id: 14, name: "Jocielton", type: "terceirizado", status: "viajando", cargoValue: 270.0, hasAssitent: true}
 ]
 
+// Forma de exportar os dados do motorista, para serem acessados em outros arquivos.
 module.exports = motoristas;

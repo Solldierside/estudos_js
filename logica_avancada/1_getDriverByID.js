@@ -1,4 +1,6 @@
-// Criar uma que receba um ID de motorista e retorne os detalhes do motorista correspondente
+// Vamos criar uma função que receba um ID de um motorista e retorne os dados desse motorista
+
+// Primeiro temos que importar os dados (Data) dos motoristas
 const motoristas = require('../data/motoristas.js')
 
 function getDriverByID(id) {
@@ -18,10 +20,12 @@ function getDriverByID(id) {
   }
 }
 
-getDriverByID(11); // Exemplo de uso, deve retornar o motorista com id 11
+getDriverByID(10); // Exemplo de uso, deve retornar o motorista com id 10
 
 
 // Observações:
 // O uso de "\n" é para criar quebras de linha na string exibida no console. Só serve para o console.log()
 
-// O método find() retorna o primeiro elemento que satisfaz a condição fornecida na função de callback. Se nenhum elemento satisfaz a condição, ele retorna undefined. Portanto, é importante verificar se o motorista foi encontrado antes de tentar acessar suas propriedades.
+// O método find() retorna o primeiro elemento que satisfaz a condição fornecida na função de callback.
+// Se nenhum elemento satisfaz a condição, ele retorna undefined.
+// Portanto, é importante verificar se o motorista foi encontrado antes de tentar acessar suas propriedades.

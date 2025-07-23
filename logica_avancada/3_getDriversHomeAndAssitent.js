@@ -1,4 +1,4 @@
-// Vamos criar uma função que retorna todas os motoristas que são da Casa E tem viaja com assitente (entregador)
+// Vamos criar uma função que retorna todos os motoristas que são da Casa E tem assitente (entregador)
 const motoristas = require('../data/motoristas.js')
 
 function getDriversHomeAndAssitent() {

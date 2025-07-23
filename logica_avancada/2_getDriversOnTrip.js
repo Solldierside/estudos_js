@@ -1,4 +1,4 @@
-// Vamos criar uma função que retorna todos os motoristas que estão viajando
+// Vamos criar uma função que retorna TODOS os motoristas que estão viajando
 const motoristas = require('../data/motoristas.js')
 
 function getDriversOnTrip() {
@@ -13,6 +13,7 @@ getDriversOnTrip(); // Exemplo de uso, deve retornar todos os motoristas com sta
 
 
 // Observações:
+// O método filter() é usado para filtrar, por isso, pode resultar em mais de um valor.
 // O método filter() retorna um array vazio se nenhum elemento satisfaz a condição.
 // Portanto, é importante verificar se o array resultante está vazio antes de tentar exibir os motoristas.
 // O método .length é usado para verificar o "tamanho" do array. Ou seja, a quantidade de elementos que ele possui.
