@@ -4,7 +4,7 @@ const motoristas = require('../data/motoristas.js')
 
 
 function getDriversBetween() {
-  const motoristasCargoValor = motoristas.filter(m => m.cargoValue >= "200" && m.cargoValue <= "300")
+  const motoristasCargoValor = motoristas.filter(m => m.cargoValue >= 200 && m.cargoValue <= 300)
   if (motoristasCargoValor.length === 0) {
     return console.log("Menhum motorista tem cargo com esse valor")
   }
