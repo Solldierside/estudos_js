@@ -1,5 +1,4 @@
-// Vamos criar uma função que retorna os VALORES das cargas dos motoristas
-// e o nome de cada motorista
+// Vamos criar uma função que retorna uma lista com o Nome do Motorista ao lado do VALOR da carga
 const motoristas = require("../data/motoristas.js");
 
 const getDriversCargoValues = () => {
